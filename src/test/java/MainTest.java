@@ -34,6 +34,7 @@ public class MainTest {
         assertTrue(content.contains("Computer Science:\n\tProgramming 3"));
 
         buffer.reset();
+        System.out.println("Testing complete");
     }
 
 }
