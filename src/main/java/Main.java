@@ -22,10 +22,10 @@ public class Main {
         eCourses.add(ece);
         eCourses.add(eee);
 
-        Lecturer fm = new Lecturer("Fearghal Morgan", 40, "04/05/1982");
-        Lecturer ac = new Lecturer("Adrian Clear", 31, "04/05/1991");
-        Lecturer mg = new Lecturer("Martin Glavin", 41, "04/05/1981");
-        Lecturer lk = new Lecturer("Liam Kilmartin", 42, "04/05/1980");
+        Lecturer fm = new Lecturer("Frank Monroe", 40, "04/05/1982");
+        Lecturer ac = new Lecturer("Alex Connolly", 31, "04/05/1991");
+        Lecturer mg = new Lecturer("Michael Griffiths", 41, "04/05/1981");
+        Lecturer lk = new Lecturer("Luke King", 42, "04/05/1980");
 
         Module ds = new Module("Digital Systems", eCourses, fm);
         Module p3 = new Module("Programming 3", compCourses, ac);
