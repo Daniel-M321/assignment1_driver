@@ -1,17 +1,20 @@
-import junit.framework.TestCase;
+import org.junit.jupiter.api.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.FileDescriptor;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 /**
  *
  * @author dan
  */
-public class MainTest extends TestCase {
+public class MainTest {
     /**
      * Test of main method, of class Main.
      */
+    @Test
     public void testMain() {
         System.out.println("main testing :)");
         String[] args = null;
