@@ -89,7 +89,7 @@ public class Main {
 
         courses.add(ece);
         courses.add(eee);
-        courses.add(compSci); //look up quick lists
+        courses.add(compSci);
 
         System.out.print("Welcome to the lecture management...");
         System.out.print("\nPlease find the list of courses registered below and their respective modules:\n\n");
